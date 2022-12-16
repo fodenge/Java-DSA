@@ -10,7 +10,7 @@ public class Calculator {
         double num1=inp.nextDouble();
         System.out.println("Enter second element : ");
         double num2=inp.nextDouble();
-        System.out.println("Enter operand ");
+        System.out.println("Enter operand [+,-,*,/] : ");
         char op=inp.next().charAt(0);
         double res=0;
         if(op == '+')
